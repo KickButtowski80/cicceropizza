@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ */
+ 
+@import "bootstrap";
+
+body{
+    font-family: 'Lato';
+    position: relative;
+}
+
+.navbar{
+    height:80px;
+}
+
+
+#navbar-item{
+    font-weight:400;
+    font-size:23px;
+}
+
+#logo{
+    height:75px;
+    width:100px;
+}
+#logo_text{  
+    font-weight: 900;
+    font-size: 42px;
+    position: absolute;
+    left: 132px;
+    top: 32px;
+} 
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#home{
+    background: url(/assets/1.jpeg) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+     
+// menu section  
+#menu{
+    height: 600px;
+    color:black;
+    padding:55px;
+}
+

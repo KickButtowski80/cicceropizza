@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= yield(:header) if @content_for_header %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,700i" rel="stylesheet">
+</head>
+
+<%= render 'layouts/navbar'%>
+<%= render 'layouts/slogan'%>
+<%= render :partial => 'layouts/menu' %>
+ 
+   
+  
+   
+
+
+
+</body>
+</html>
