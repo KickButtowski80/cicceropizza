@@ -1,7 +1,24 @@
 Rails.application.routes.draw do
-  get 'menus/lunch'
+  get 'abouts/index'
 
-  get 'menus/dinner'
+  get 'abouts/index'
+
+  get 'about/index'
+
+  # NOTES:
+  # use resoureces !
+  # rename content !
+  # nested resources
+  resources :menus, only: [:index]
+  
+  namespace :menus do
+    resources :lunch,  only: [:index]
+    resources :dinner, only: [:index]
+  end
+  
+
+  
+  get 'about' => 'abouts#index'
 
   get 'welcome/index'
 

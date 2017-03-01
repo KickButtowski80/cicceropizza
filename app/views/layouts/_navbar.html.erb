@@ -14,9 +14,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav" style=" ">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#menu">Menu</a></li> 
-            <li><a href="#about">About</a></li>
+            
+            <li><%= link_to 'Home', welcome_index_path %></li>
+            <li><%= link_to 'Menu', menus_path %></li> 
+            <li><%= link_to  'About', abouts_index_path %></li>
             <li><a href="#contact">Contact</a></li>
            
           </ul>

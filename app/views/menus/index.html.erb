@@ -1,14 +1,11 @@
-<% content_for :header do -%>
-  <%= stylesheet_link_tag 'menu.css.scss' %>
-<% end -%>
-<div class="container-fluid" id="menu">
+ <div class="container-fluid" id="menu">
   <h1 class="text-center">Menu</h1>
   <div class="row">
     
     <div class="col-sm-4 col-sm-offset-2" >
     <img src="/assets/lunch.logo.jpg " style="width:200px;height:200px;display:block;margin:auto;"> 
     <div class="text-center" >
-        <%= link_to 'Lunch', menus_lunch_path %>
+        <%= link_to 'Lunch', menus_lunch_index_path  %>
     </div>   
             
     </div>
@@ -17,9 +14,9 @@
     <div class="text-center" >
      
             <img src="/assets/dinner.logo.png " style="width:200px;height:200px;display:block;margin:auto;" >
-            <%= link_to 'Dinner' , menus_dinner_path %>
+            <%= link_to 'Dinner' , menus_dinner_index_path %> 
        
-    </div>  
+        </div>  
     </div>
   </div>
 </div>
