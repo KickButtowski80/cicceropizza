@@ -1,3 +1,14 @@
 // Place all the styles related to the Abouts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    color: black;
+}
+#about {
+    height: 800px;
+    background-image: url("http://pizzatime.com/wp-content/uploads/2014/09/pizza-transparen2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    opacity: 0.8;
+}

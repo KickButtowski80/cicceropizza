@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  get 'abouts/index'
-
-  get 'abouts/index'
-
-  get 'about/index'
 
   # NOTES:
   # use resoureces !
@@ -17,8 +12,8 @@ Rails.application.routes.draw do
   end
   
 
-  
-  get 'about' => 'abouts#index'
+  resources :abouts, only: [:index]
+  #get 'about' => 'abouts#index'
 
   get 'welcome/index'
 
