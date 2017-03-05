@@ -15,6 +15,8 @@ gem 'htmlbeautifier'
 #gem 'jquery-countdown-rails'
 gem 'wow-rails'
 gem 'lightbox2-rails'
+
+gem  'rake-minify'
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3'
