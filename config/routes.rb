@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'homepizza' => 'slogans#index'
+
   # NOTES:
   # use resoureces !
   # rename content !
@@ -12,16 +14,17 @@ Rails.application.routes.draw do
   end
   
 
-  resources :abouts, only: [:index]
-  #get 'about' => 'abouts#index'
+  #resources :abouts, only: [:index]
+  get 'about-us' => 'abouts#index'
+  get 'contact-us' => 'abouts#contact'
 
-  get 'welcome/index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'slogans#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

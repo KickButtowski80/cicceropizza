@@ -1,0 +1,12 @@
+ <% if controller.controller_name == 'slogans' || controller.controller_name == 'menus' || controller.controller_name == 'abouts' %> 
+    <%= render template: 'slogans/index'%>
+    <%= render template: 'menus/index' %>
+    <%= render template: 'abouts/index'%>
+    <%= render template: 'abouts/contact' %>
+  <% elsif controller.controller_name == 'dinner' %> 
+    <%= render template: 'menus/dinner/index' %>
+    <%= render template: 'abouts/contact' %>
+  <% elsif controller.controller_name == 'lunch' %>
+     <%= render template: 'menus/lunch/index' %>
+     <%= render template: 'abouts/contact' %>
+  <%end%>
