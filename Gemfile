@@ -9,13 +9,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'sprockets', '~> 3.0'
-gem 'htmlbeautifier'
-#gem 'owlcarousel-rails'
-#gem 'jquery-countdown-rails'
-gem 'wow-rails'
-gem 'lightbox2-rails'
-
+gem 'sprockets', '~> 3.0' 
+gem  'animate-rails' 
+gem  "font-awesome-rails"
 gem  'rake-minify'
 group :development, :test do
   gem 'byebug'

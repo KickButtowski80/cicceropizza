@@ -10,8 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  */
- 
+
 @import "bootstrap";
+@import "animate"; 
+@import "font-awesome";
 
 body{
     font-family: 'Lato';
@@ -36,8 +38,8 @@ body{
 #nav-items{
     background: #fff;
     padding-left: 30px;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #nav-items li a {
@@ -49,7 +51,11 @@ body{
     
 }
 
- 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #333;
+  border-bottom: 5px solid gray;
+  margin-top: 1px; /*add spacing*/
+}
 
 .vertical-align {
     position: relative;
@@ -71,31 +77,59 @@ body{
     
 #contact {
     height: 500px;
-    background: yellow;
 }   
      
 // menu section  
 #menu{
-    height: 600px;
+    height: 400px;
     color:black;
     padding-top:55px;
 }
 
+#mySelect{
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none; 
+    border: 0px;
+    background: no-repeat 
+                url('down-arrow.jpg')
+                right;
+    background-size: 20px 20px;
+}
+ 
 
+#mySelect:focus{
+    -webkit-outline:none;
+    -moz-outline:none;
+    outline:none;
+}
 
-@media only screen and (max-width: 736px) {
+.mytextwithicon {
+    position:relative;
+}    
+.mytextwithicon:before {
+    content: "\25AE"; 
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:0;
+ }
+
+@media only screen and (max-width: 768px) {
     #nav-items{
     background: #fff;  
     font-size: 16px;
     font-weight: 600;
     }
     
-    #about{
-        height:5000px;
+    #menu,#about,#contact {
+        padding-top:25px;
+        height:550px;
     }
      
-    #contact{
-        height:1000px;
-        
-    }
+    
+    .navbar-default .navbar-nav > li > a:hover { 
+      border-bottom: none; 
+      margin-top: none; 
+   }
 }
