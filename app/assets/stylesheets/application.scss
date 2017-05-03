@@ -87,6 +87,7 @@ body{
 }
 
 #mySelect{
+    width: 180px;
     -webkit-appearance: none; 
     -moz-appearance: none;
     appearance: none; 
@@ -104,16 +105,11 @@ body{
     outline:none;
 }
 
-.mytextwithicon {
-    position:relative;
-}    
-.mytextwithicon:before {
-    content: "\25AE"; 
-    font-family: FontAwesome;
-    left:-5px;
-    position:absolute;
-    top:0;
- }
+#google-map{
+    // width: 325px;
+    // height: 400px;
+}
+
 
 @media only screen and (max-width: 768px) {
     #nav-items{
