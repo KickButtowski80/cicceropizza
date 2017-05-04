@@ -1,7 +1,6 @@
 $(document).ready(function(){
         var d = new Date();
         var dayInNumber = d.getDay();
-        
         var myDiv = document.getElementById("myDiv");
         
         //Create array of options to be added
