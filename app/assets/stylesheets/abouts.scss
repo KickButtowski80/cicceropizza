@@ -4,9 +4,20 @@
 
 #about {
     padding-top: 50px;
-    height: 800px;
-    background-image: url("http://pizzatime.com/wp-content/uploads/2014/09/pizza-transparen2.png");
+    height: 80%;
+    background-image: url("pizzaOven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    background-size: cover;
+    opacity: .9;
+    color: white;
 }
+
+#jumbo-about{
+    margin-top: 20px;
+    height: 80%;
+    color: black;
+    font-size: 20px;
+    opacity: .7;
+    }
