@@ -10,8 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sprockets', '~> 3.0' 
-gem  'animate-rails' 
-gem  "font-awesome-rails"
+
 gem  'rake-minify'
 group :development, :test do
   gem 'byebug'
@@ -26,3 +25,12 @@ group :production do
   gem 'puma'
   gem 'pg'
 end
+
+gem  'animate-rails' 
+gem  "font-awesome-rails"
+gem 'carrierwave', '~> 1.1'
+gem 'mini_magick', '~> 4.7'
+gem 'carrierwave-aws', '~> 1.1'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
+gem "paperclip", "~> 5.0.0"
