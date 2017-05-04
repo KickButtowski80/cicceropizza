@@ -65,19 +65,47 @@ body{
 
 
 #home{
-    background: url(/assets/1.jpeg) fixed;
+    background: url(1.jpeg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
     height: 500px;
     color: #fff;
+    
 }
-    
-    
-#contact {
-    height: 500px;
+
+ #about{
+    background-image: url('pizzainoven.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    //height: 500px;
+    padding-bottom: 125px;
+    color: #fff;
 }   
+ 
+ #contact{
+    background: url(contact.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    //height: 500px;
+    color: #d9edf7;
+} 
+
+ .section{
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+ 
+ }  
      
 // menu section  
 #menu{
@@ -105,13 +133,8 @@ body{
     outline:none;
 }
 
-#google-map{
-    // width: 325px;
-    // height: 400px;
-}
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
     #nav-items{
     background: #fff;  
     font-size: 16px;
@@ -119,8 +142,8 @@ body{
     }
     
     #menu,#about,#contact {
-        padding-top:25px;
-        height:550px;
+        padding-top:35px;
+        height:800px;
     }
      
     
