@@ -63,7 +63,10 @@ body{
     transform: translateY(-50%);
 }
 
-
+#home, #about, #menu, #contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 #home{
     background: url(/assets/1.jpeg) fixed;
     background-repeat: no-repeat;
@@ -75,8 +78,7 @@ body{
 }
     
     
-#contact {
-    padding-top: 50px;
+#contact { 
     height: 80%;
     background-image: url("pizzacontact.jpg");
     background-repeat: no-repeat;
@@ -90,8 +92,7 @@ body{
 // menu section  
 #menu{
     height: 80%;
-    color:black;
-    padding-top:55px;
+    color:black; 
 }
 
 #mySelect{
@@ -114,8 +115,7 @@ body{
 }
 
 #google-map{
-    // width: 325px;
-    // height: 400px;
+   width: 90%;
 }
 
 
