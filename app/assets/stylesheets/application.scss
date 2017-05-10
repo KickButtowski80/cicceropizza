@@ -68,7 +68,8 @@ body{
     padding-bottom: 50px;
 }
 #home{
-    background: url(/assets/1.jpeg) fixed;
+    background: image-url(/assets/1.jpeg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -80,7 +81,7 @@ body{
     
 #contact { 
     height: 80%;
-    background-image: url("pizzacontact.jpg");
+    background-image: image-urll("pizzacontact.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
