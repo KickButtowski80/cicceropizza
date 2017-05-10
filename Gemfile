@@ -31,6 +31,7 @@ gem  "font-awesome-rails"
 gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.7'
 gem 'carrierwave-aws', '~> 1.1'
+gem 'aws-sdk', '~> 2.9', '>= 2.9.16'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
 gem "paperclip", "~> 5.0.0"
