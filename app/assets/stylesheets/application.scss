@@ -86,8 +86,22 @@ body{
 #menu{
     height: 50%;
     color:black; 
+     background-image: image-url("/assets/pizzaOven.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover; 
+    color: #fff;
+    height: 25%;
 }
 
+
+#lunch-logo{
+    width:200px;
+    height:200px;
+    display:block;
+    margin:auto;
+}
 // about has it is own scss file 
 
 
