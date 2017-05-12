@@ -94,8 +94,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-    background-size: cover;
-    opacity: .9;
+    background-size: cover; 
     color: #fff;
     height: 25%;
 }   
@@ -105,7 +104,7 @@ body{
     height: 50%;
     color: black;
     font-size: 20px;
-    opacity: .7;
+    opacity: .8;
     }    
     
 
@@ -119,7 +118,9 @@ body{
     background-image: image-url('down-arrow.jpg');
     background-position: right;
     background-size: 20px 20px;
+    background-color: rgba(248, 248, 248,0.6) ;
     width: 250px;
+    
 }
  
 
@@ -131,6 +132,7 @@ body{
 
 #google-map{
    width: 80%;
+   opacity: 1;
 }
 
 @media(min-width:767px) {
@@ -153,7 +155,7 @@ body{
     }
     
     #menu,#about,#contact {
-        padding-top:25px;
+        padding-top:45px;
        
     }
      
@@ -162,3 +164,4 @@ body{
       border-bottom:none;
     }
 }
+    
