@@ -4,25 +4,25 @@
 
 #about {
     padding-top: 50px;
-    height: 80%;
-    background-image: url("pizzaOven.jpg");
+    //height: 80%;
+    background-image: image-url("/assets/pizzaOven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
     opacity: .9;
     color: white;
+    height: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #jumbo-about{
     margin-top: 20px;
-    height: 80%;
+    height: 50%;
     color: black;
     font-size: 20px;
     opacity: .7;
     }
     
-    #about, #menu, #contact{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+

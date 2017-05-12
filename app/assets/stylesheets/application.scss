@@ -20,6 +20,8 @@ body{
     position: relative;
 }
 
+
+// NAVBAR SECTION
 .navbar{
     height:60px;   
 }
@@ -57,6 +59,7 @@ body{
   margin-top: 1px; /*add spacing*/
 }
 
+
 .vertical-align {
     position: relative;
     top: 50%;
@@ -67,6 +70,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 #home{
     background: image-url("/assets/1.jpeg");
     background-attachment: fixed;
@@ -74,13 +78,18 @@ body{
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    //height: 500px;
+    height: 500px;
     color: #fff;
 }
     
-    
+// MENU SECTION
+#menu{
+    height: 50%;
+    color:black; 
+}
+   
+// CONTACT SECTIOn 
 #contact { 
-    //height: 80%;
     background-image: image-url("pizzacontact.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -88,20 +97,17 @@ body{
     background-size: cover;
     opacity: .9;
     color: #fff;
+    height: 25%;
 }   
 
 #jumbo-contact{
     margin-top: 20px;
-    height: 80%;
+    height: 50%;
     color: black;
     font-size: 20px;
     opacity: .7;
     }    
-// menu section  
-#menu{
-   // height: 80%;
-    color:black; 
-}
+    
 
 #mySelect{
     width: 180px;
@@ -125,20 +131,6 @@ body{
 
 #google-map{
    width: 80%;
-}
-
-
-#home {
-    height: 500px;
-}
-
-
-#menu {
-    height: 50%;
-}
-
-#contact {
-    height: 25%;
 }
 
 @media(min-width:767px) {
