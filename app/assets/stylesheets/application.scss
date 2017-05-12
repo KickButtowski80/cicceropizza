@@ -87,10 +87,26 @@ body{
     height: 50%;
     color:black; 
 }
+
+// about has it is own scss file 
+
+
+    
+//our pefromance section 
+.performance-rate {
+    height: 230px;
+}
+
+.performance-rate a {
+    color: black;
+    font-weight: 300;
+    padding: 35px;
+}
+
    
 // CONTACT SECTIOn 
 #contact { 
-    background-image: image-url("pizzacontact.jpg");
+    background-image: image-url("/assets/pizzaOven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -166,14 +182,3 @@ body{
     
     
     
-    
-    //status
-.status {
-    height: 230px;
-}
-
-.status a {
-    color: black;
-    font-weight: 300;
-    padding: 35px;
-}
