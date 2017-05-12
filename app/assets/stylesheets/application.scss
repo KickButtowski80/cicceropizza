@@ -132,7 +132,6 @@ body{
 
 #google-map{
    width: 80%;
-   opacity: 1;
 }
 
 @media(min-width:767px) {
@@ -165,3 +164,16 @@ body{
     }
 }
     
+    
+    
+    
+    //status
+.status {
+    height: 230px;
+}
+
+.status a {
+    color: black;
+    font-weight: 300;
+    padding: 35px;
+}
