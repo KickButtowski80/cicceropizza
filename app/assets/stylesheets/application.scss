@@ -74,13 +74,13 @@ body{
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 500px;
+    //height: 500px;
     color: #fff;
 }
     
     
 #contact { 
-    height: 80%;
+    //height: 80%;
     background-image: image-url("pizzacontact.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -99,7 +99,7 @@ body{
     }    
 // menu section  
 #menu{
-    height: 80%;
+   // height: 80%;
     color:black; 
 }
 
@@ -109,11 +109,11 @@ body{
     -moz-appearance: none;
     appearance: none; 
     border: 0px;
-    background: no-repeat 
-                url('down-arrow.jpg')
-                right;
+    background-repeat: no-repeat;
+    background-image: image-url('down-arrow.jpg');
+    background-position: right;
     background-size: 20px 20px;
-    width: 225px;
+    width: 250px;
 }
  
 
@@ -128,6 +128,31 @@ body{
 }
 
 
+#home {
+    height: 500px;
+}
+
+
+#menu {
+    height: 50%;
+}
+
+#contact {
+    height: 25%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        //padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
 @media only screen and (max-width: 768px) {
     #nav-items{
     background: #fff;  
