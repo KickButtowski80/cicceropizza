@@ -74,6 +74,9 @@ body{
 #home{
     background: image-url("/assets/1.jpeg");
     background-attachment: fixed;
+    //next two lines for showing  fixed pic in iphone ipad 
+    background-size: cover;
+    background-attachment: scroll; 
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -86,11 +89,15 @@ body{
 #menu{
     height: 50%;
     color:black; 
-     background-image: image-url("/assets/pizzaOven.jpg");
+    background-image: image-url("/assets/pizzaOven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    //next two lines for showing  fixed pic in iphone ipad 
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: center; 
+    background-attachment: scroll; 
     background-position: center; 
-    background-size: cover; 
     color: #fff;
     height: 25%;
 }

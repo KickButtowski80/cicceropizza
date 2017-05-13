@@ -9,7 +9,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    position: center; 
+    //next two lines for showing  fixed pic in iphone ipad 
     background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: scroll; 
     opacity: .9;
     color: white;
     height: 10%;
