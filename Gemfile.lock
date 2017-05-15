@@ -71,7 +71,11 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    config (1.4.0)
+      activesupport (>= 3.0)
+      deep_merge (~> 1.1.1)
     debug_inspector (0.0.2)
+    deep_merge (1.1.1)
     dotenv (2.2.1)
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
@@ -190,6 +194,7 @@ DEPENDENCIES
   carrierwave (~> 1.1)
   carrierwave-aws (~> 1.1)
   coffee-rails (~> 4.1.0)
+  config
   dotenv-rails (~> 2.2, >= 2.2.1)
   font-awesome-rails
   jbuilder (~> 2.0)
@@ -209,4 +214,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.14.4
+   1.14.6

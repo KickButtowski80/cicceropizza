@@ -35,3 +35,5 @@ gem 'aws-sdk', '~> 2.9', '>= 2.9.16'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
 gem 'rails_12factor', group: :production
+
+gem 'config'

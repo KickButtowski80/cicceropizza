@@ -1,0 +1,407 @@
+Most Popular:
+    - name: Chicken Pesto Farfala
+      ingredients:
+      price: $11.00+
+    - name: Hot Wings
+      ingredients:
+      price: $8.50 
+    - name: Ciccero's Treat
+      ingredients: Two large pizzas with 3 toppings and 3 cans of soda.
+      price: $25.00 
+    - name: Large Pizza Special
+      ingredients: Large pizza with 3 toppings, 10-piece hot wings, and 3 cans of soda.
+      price: $21.00 
+    - name: Two Pastas Special
+      ingredients: Two pastas of your choice, 2 green salads, 2 garlic breads, and 2 cans of soda.
+      price: $21.00+
+    - name: Make Your Own Pizza
+      ingredients: Mozzarella.
+      price: $12.00+
+    - name: Personal Pizza
+      ingredients: ONE 9" pizza.
+      price: $7.50+
+    - name: Spaghetti
+      ingredients: Homemade marinara sauce, Parmesan, and mozzarella. Vegetarian.
+      price: $9.00+
+    - name: Cheesecake
+      ingredients:
+      price: $3.50
+    - name: Chocolate Cake
+      ingredients:
+      price: $3.50
+      
+Salads: 
+
+      - name: Tossed Green Salad
+        ingredients: Lettuce, tomatoes, carrots, red cabbage, black olives and mozzarella cheese.
+        price: $3.95+
+      
+      - name: Antipasto Salad
+        ingredients: With salami, ham, pepperoni, mozzarella cheese, black olives, tomatoes and pepperoncini.
+        price: $5.55+
+      
+      - name: Tossed Chicken Green Salad
+        ingredients: Breast of chicken with black olives, lettuce, tomatoes, red onion, mozzarella and pepperoncini.
+        price: $5.55+
+      
+      - name: Caesar Salad
+        ingredients: Caesar dressing, romaine, garlic croutons and Parmesan cheese.
+        price: $7.40+
+      
+      - name: Spinach Salad
+        ingredients: Fresh spinach with roma tomatoes, feta cheese, sun-dried tomatoes and artichoke hearts with balsamic vinaigrette.
+        price: $8.55+
+      
+      - name: Milano Chicken Salad
+        ingredients: Marinated chicken breast, blend of mixed green and baby lettuce, roasted peppers and penne pasta covered with fresh tomato, basil vinaigrette and Parmesan cheese.
+        price: $9.75 
+      
+      - name: Tuna Salad
+        ingredients: Scoop of albacore tuna on a bed of mixed greens.
+        price: $8.95 
+      
+      - name: Turkey and Salami Salad
+        ingredients: Lettuce, basil, salami, turkey, tomatoes, Kalamata olives and mozzarella cheese.
+        price: $8.95 
+      
+      - name: Chicken Avocado Salad
+        ingredients: Grilled chicken, romaine, avocado, artichoke, red onions, tomatoes and Kalamata olives.
+        price: $9.55 
+      
+      - name: Greek Salad
+        ingredients: Blend of mixed greens and baby lettuce, roma tomatoes, feta cheese, red onions, Greek olievs, cucumbers, pepperoncini with Italian dressing or balsamic vinaigrette.
+        price: $8.75+
+      
+      - name: Chicken Pasta Salad
+        ingredients: Chicken breast, penne, red peppers, garlic, zucchini, tomato sauce and Parmesan cheese.
+        price: $8.95 
+      
+Beverages:
+- name: Soda
+  ingredients: ~
+  price: $1.20 
+- name: Snapple
+  ingredients: ~
+  price: $2.00 
+  
+  
+Pizza:
+- name: Mozzarella Cheese Pizza
+  ingredients: ~
+  price: $10.95+
+- name: Ciccero's Combination Special Pizza
+  ingredients: Pepperoni, Italian sausage, mushrooms, onions, black olives and bell peppers.
+  price: $16.85+
+- name: Vegetarian Special Pizza
+  ingredients: Mushrooms, olives, bell peppers, fresh tomatoes and onions.
+  price: $16.75+
+- name: All Meat Special Pizza
+  ingredients: Pepperoni, salami, sausage and ham.
+  price: $16.85+
+- name: Hawaiian Special Pizza
+  ingredients: Canadian bacon and pineapples.
+  price: $14.15+
+- name: Chicken Special Pizza
+  ingredients: Marinated chicken breast and red onions.
+  price: $14.15+
+- name: Individual Special Pizza
+  ingredients: ~
+  price: $4.55+
+  
+  
+Gourment Pizza:  
+- name: Margarita Pizza
+  ingredients:  Roasted garlic, fresh basil, fresh roma tomato and tomato sauce.
+  price: $15.95+
+
+
+- name: BBQ Chicken Pizza
+  ingredients: Char-grilled chicken, red onion, cilantro, BBQ sauce and tomato sauce.
+  price: $17.50+
+
+
+- name: Chicken Pesto Pizza
+  ingredients: Chicken breast, fresh pesto and artichoke hearts, topped with diced tomato.
+  price: $17.50+
+
+
+- name: Roma Tomato Pizza
+  ingredients: Slices of roma tomato, roasted garlic and basil.
+  price: $15.50+
+
+
+- name: Mediterranean Pizza
+  ingredients: Grilled marinated eggplant, artichoke hearts, hearts of palm, sun-dried tomato, fresh basil, Parmesan cheese and our tomato sauce.
+  price: $17.50+
+
+
+- name: Eggplant Feta Pizza
+  ingredients: Grilled marinated eggplant, feta cheese, sun-dried tomato and tomato sauce.
+  price: $15.95+
+
+
+- name: Greek Pizza
+  ingredients: Artichoke hearts, Kalamata olives, capers and roma tomato.
+  price: $15.95+
+
+
+- name: Tuscan Pizza
+  ingredients: Roasted peppers, roasted garlic, sun-dried tomato and roma tomato.
+  price: $15.95+
+
+
+- name: Grilled Vegetables Pizza
+  ingredients: Grilled eggplant, zucchini, bell peppers and red onions with roasted garlic, fresh basil and roma tomato.
+  price: $17.95+
+
+
+- name: Mixed Vegetarian Pizza
+  ingredients: Grilled eggplant, mushrooms, broccoli, basil, sun-dried tomato and tomato sauce.
+  price: $17.95+
+
+
+- name: Chicken Spinach Pizza
+  ingredients: Chicken breast, fresh mushrooms, artichoke heart, fresh spinach, tomato sauce and mozzarella.
+  price: $17.95+
+
+
+- name: Western Chicken Pizza
+  ingredients: Chicken breast, cilantro, fresh tomatoes, jalapenos, fresh avocados and mozzarella cheese.
+  price: $17.50+
+
+
+- name: Shrimp and Roasted Pepper Pizza
+  ingredients: Marinated shrimp, roasted peppers, roasted garlic, sun-dried tomatoes and fresh basil.
+  price: $17.95+
+  
+  
+Calzone: 
+- name: Deluxe Calzone
+  ingredients: Pepperoni, sausage, mushrooms, onions, bell peppers, tomato sauce, ricotta, fresh basil, olive, mozzarella and Parmesan cheese.
+  price: $8.95 
+
+
+- name: Vegetarian Calzone
+  ingredients: Mushrooms, onions, bell peppers, olives, tomato sauce, ricotta, fresh basil, mozzarella and Parmesan cheese.
+  price: $8.95 
+
+
+- name: BBQ Chicken Calzone
+  ingredients: Grilled chicken breast, red onion, cilantro, BBQ sauce, tomato sauce, ricotta and mozzarella cheese.
+  price: $8.95 
+
+
+- name: Cheese Calzone
+  ingredients: Ricotta, mozzarella and Parmesan cheese and tomato sauce.
+  price: $8.95 
+
+
+- name: Grilled Vegetables Calzone
+  ingredients: Grilled eggplant, zucchini, peppers, red onions with roasted garlic, fresh basil and tomato sauce.
+  price: $8.95 
+  
+  
+Pasta:
+- name: Spaghetti
+  ingredients: Marinara sauce and mozzarella cheese. Served with garlic bread.
+  price: $8.40+
+
+- name: Lasagna (Meat)
+  ingredients: Marinara sauce and mozzarella cheese. Served with garlic bread.
+  price: $9.50+
+
+- name: Ravioli
+  ingredients: Marinara sauce and mozzarella cheese. Served with garlic bread.
+  price: $9.50+
+
+- name: Baked Ziti
+  ingredients: Penne mixed with ricotta cheese and marinara sauce baked under a blanket of mozzarella cheese. Served with garlic bread.
+  price: $8.95+
+
+- name: Tortellini Primavera
+  ingredients: Cheese tortellini with choice of cream sauce or tomato sauce, mozzarella cheese and fresh vegetables. Served with garlic bread.
+  price: $9.50 
+
+- name: Chicken Parmesan
+  ingredients: Breast of chicken on bed of fettucini with homemade tomato sauce, topped with mozzarella cheese. Served with garlic bread.
+  price: $9.45 
+
+- name: Eggplant Parmesan
+  ingredients: Breaded eggplant prepared in our marinara sauce with mozzarella cheese on fettuccini. Served with garlic bread.
+  price: $9.45 
+
+- name: Chicken Alfredo
+  ingredients: Fettuccine pasta in a white cream sauce Parmesan cheese. Served with garlic bread.
+  price: $9.95 
+
+- name: Fettuccini Verdura
+  ingredients: Fettuccini pasta in a white cream sauce fresh vegetable and Parmesan cheese. Served with garlic bread.
+  price: $9.55+
+
+- name: Angel Hair Pomodoro
+  ingredients: Fresh roma tomato, basil, garlic, mushrooms, Parmesan cheese, white wine and olive oil.
+  price: $9.45+
+
+- name: Chicken Spinach Penne
+  ingredients: Chicken breast, fresh spinach, mushrooms, artichoke, garlic, Parmesan and tomato sauce.
+  price: $9.55 
+
+- name: Cajun Chicken Chipotle
+  ingredients: Chicken breast marinated in Cajun vinaigrette, sauteed with sweet red peppers, red onions, garlic, tossed with chipotle chili, cream sauce and penne, topped with fresh tomato and cilantro.
+  price: $9.55 
+
+- name: Chicken Penne
+  ingredients: Chicken breast with garlic, onions, basil and spicy marinara, tossed with penne.
+  price: $9.55 
+
+- name: Garlic Shrimp
+  ingredients: Tomato, basil, extra virgin olive oil and cream sauce, tossed with linguine.
+  price: $ 10.95 
+
+- name: Grilled Sausage and Pepper Penne
+  ingredients: Penne with slices of grilled spicy Italian sausage, mild onions, red and yellow peppers and Parmesan cheese in our marinara sauce.
+  price: $9.95 
+
+- name: Cilantro Chicken
+  ingredients: Fettuccine with lime marinated chicken, red onions, sweet colored peppers and jalapenos in cilantro cream sauce.  
+  price: $9.95 
+
+
+Gourmet Sandwiches:
+- name: Eggplant Chicken Sandwich
+  ingredients: Chicken breast with grilled eggplant, feta cheese, lettuce, tomatoes and mayonnaise.
+  price: $7.85 
+  
+
+- name: Vegetarian Sandwich
+  ingredients: Fresh sliced avocados, sun-dried tomatoes, provolone cheese, alfalfa sprouts, lettuce, tomatoes and mayonnaise.
+  price: $7.85 
+  
+
+- name: Grilled Chicken Avocado Sandwich
+  ingredients: Grilled chicken breast , slices of avocado, lettuce, tomatoes, alfalfa sprouts, mayonnaise, Dijon mustard and provolone cheese.
+  price: $7.85 
+  
+
+- name: BBQ Chicken Sandwich
+  ingredients: Grilled chicken breast, grilled red onions, cilantro, lettuce, tomatoes, provolone cheese and special BBQ sauce.
+  price: $7.85 
+  
+
+- name: Tuna Sandwich
+  ingredients: White albacore tuna blended with cucumbers, fresh dill, celery, red and green onions, lettuce, tomatoes, provolone cheese, mayonnaise and Dijon mustard.
+  price: $7.85 
+  
+
+- name: Chipotle Chicken Sandwich
+  ingredients: Chicken breast, chipotle sauce, mayonnaise, lettuce, melted mozzarella cheese and tomatoes.
+  price: $7.85 
+  
+  
+Hot and Cold Sandwiches:
+- name: Roast Beef Sandwich
+  ingredients: Slice of roast beef, mozzarella cheese, lettuce, tomatoes and mayonnaise.
+  price: $6.95 
+  
+
+- name: Pastrami Sandwich
+  ingredients: Lean slices of pastrami, mozzarella cheese, pickles and mustard.
+  price: $6.95 
+  
+
+- name: Chicken Parmesan Sandwich
+  ingredients: Chicken breast, melted mozzarella cheese and Italian tomato sauce.
+  price: $6.95 
+  
+
+- name: Club Sandwich
+  ingredients: Slice of turkey, ham and roast beef served with lettuce, tomatoes, mozzarella cheese, Italian dressing and mayonnaise.
+  price: $6.95 
+  
+
+- name: Chicken Sub Sandwich
+  ingredients: Breast of chicken, mozzarella cheese, lettuce, tomato and mayonnaise.
+  price: $6.95 
+  
+
+- name: Meatballs and Cheese Sandwich
+  ingredients: Homemade meatballs, melted mozzarella cheese and Italian tomato sauce.
+  price: $6.95 
+  
+
+- name: Italian Sausage and Cheese Sandwich
+  ingredients: Italian sausage links, melted mozzarella cheese and Italian tomato sauce.
+  price: $6.95 
+  
+
+- name: Eggplant Sandwich
+  ingredients: Slices of delightfully breaded eggplant, mozzarella cheese and Italian tomato sauce.
+  price: $6.95 
+  
+
+- name: Ham and Cheese Sandwich
+  ingredients: Slices of ham, mozzarella cheese, lettuce, tomatoes and mayonnaise.
+  price: $6.95 
+  
+
+- name: Hero Sandwich
+  ingredients: Salami, Canadian bacon, pepperoni, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
+  price: $6.95 
+  
+
+- name: Cold Submarine Sandwich
+  ingredients: Salami, ham, Canadian bacon, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
+  price: $6.95 
+  
+
+- name: Cold Turkey Sandwich
+  ingredients: Slices of turkey, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
+  price: $6.95 
+  
+
+- name: Cold Avocado and Cheese Sandwich
+  ingredients: Fresh avocado slices, mozzarella cheese, black olives, lettuce, tomatoes, mayonnaise and Italian dressing.
+  price: $6.95 
+  
+  
+Side Orders:
+ - name: Garlic Bread
+   ingredients: ~
+   price: $1.95 
+ - name: Garlic Bread with Cheese
+   ingredients: ~
+   price: $3.55 
+ - name: 2 Meatballs
+   ingredients: ~
+   price: $3.25 
+ - name: 2 Italian Sausages
+   ingredients: ~
+   price: $3.25 
+ - name: 7 Hot Wings
+   ingredients: ~
+   price: $5.75 
+ - name: 7 Fried Zucchini
+   ingredients: With ranch dressing.
+   price: $4.95 
+
+ - name: 7 Mozzarella Cheese Sticks
+   ingredients: With marinara sauce.
+   price: $4.95 
+  
+  
+Desserts: 
+- name: Cheese Cake
+  ingredients: ~
+  price: $3.25 
+- name: Chocolate Mousse Cake
+  ingredients: ~
+  price: $3.25 
+- name: Tiramisu
+  ingredients: ~
+  price: $3.25
+  
+
+    
+
+
+      
