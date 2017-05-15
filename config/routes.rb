@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'homepizza' => 'slogans#index'
-
   # NOTES:
   # use resoureces !
   # rename content !
