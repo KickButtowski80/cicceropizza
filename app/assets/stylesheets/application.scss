@@ -15,11 +15,25 @@
 @import "animate"; 
 @import "font-awesome";
 
+html {
+    height: 100%;
+}
+
 body{
     font-family: 'Lato';
     position: relative;
+   
 }
 
+#body-bg-image{
+    background-image: image-url("/assets/pizzaOven.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; 
+  
+}
 
 // NAVBAR SECTION
 .navbar{
@@ -72,34 +86,22 @@ body{
 }
 
 #home{
-    background: image-url("/assets/1.jpeg");
-    background-attachment: fixed;
-    //next two lines for showing  fixed pic in iphone ipad 
-    background-size: cover;
-    background-attachment: scroll; 
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    background-size: cover;
     height: 500px;
-    color: #fff;
 }
-    
+  
+  
+#jumbo-slogan {
+    margin-top: 72px;
+    height: 50%;
+    color: black;
+    font-size: 20px;
+    opacity: .8;
+}
+
+
 // MENU SECTION
 #menu{
-    height: 50%;
-    color:black; 
-    background-image: image-url("/assets/pizzaOven.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    //next two lines for showing  fixed pic in iphone ipad 
-    background-size: cover;
-    -webkit-background-size: cover;
-    position: center; 
-    background-attachment: scroll; 
-    background-position: center; 
-    color: #fff;
-    height: 25%;
+    height: 50%; 
 }
 
 
@@ -126,13 +128,7 @@ body{
 
    
 // CONTACT SECTIOn 
-#contact { 
-    background-image: image-url("/assets/pizzaOven.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: cover; 
-    color: #fff;
+#contact {  
     height: 25%;
 }   
 
@@ -168,10 +164,10 @@ body{
 }
 
 #google-map{
-   width: 80%;
+   width: 70%;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     .navbar {
         //padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -184,6 +180,16 @@ body{
     }
 }
 @media only screen and (max-width: 768px) {
+    #body-bg-image{
+    background-image: image-url("/assets/pizzaOven768width.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; 
+  
+}
+
     #nav-items{
     background: #fff;  
     font-size: 16px;

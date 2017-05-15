@@ -2,18 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#about,#our-performance {
+#about{
     padding-top: 50px;
     //height: 80%;
-    background-image: image-url("/assets/pizzaOven.jpg");
+    //background-image: image-url("/assets/pizzaOven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-    position: center; 
-    //next two lines for showing  fixed pic in iphone ipad 
     background-size: cover;
-    -webkit-background-size: cover;
-    background-attachment: scroll; 
     opacity: .9;
     color: white;
     height: 10%;
