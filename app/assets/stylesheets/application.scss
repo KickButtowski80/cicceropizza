@@ -246,11 +246,15 @@ body{
       border-bottom:none;
     }
     
-    #ordered-list{
-      position: static;
-    }
+   
 
 }
     
+@media only screen and (max-width: 1000px) {
+    #ordered-list{
+      position: static;
+       }
+    
+}
     
     
