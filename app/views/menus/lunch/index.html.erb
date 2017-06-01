@@ -1,6 +1,167 @@
 <% content_for :head do %>
   <%= stylesheet_link_tag 'dinner', media: 'all', 'data-turbolinks-track' => true %>
 <% end %>
-<h1>Here is whatr is for dinner</h1>
-<p>Dinner Dinner</p>
-<%#= link_to "back", root_path %>
+<div class="jumbotron" style="padding: 10px; margin:10px; margin-top:100px; border-radius:5px; opacity:0.7">
+    <div class="row" > 
+         <div class="col-xs-12 col-sm-12 col-md-12">
+             <span style="color:green;text-align:center;"><h1>Lunch Menu</h1></span>
+             <div class ="text-center" style="border: 1px solid red; color: #fff; background: red;">
+                <h2>DAILY LUNCH SPECIALS </h2>
+            </div>
+         </div>  
+    </div>
+    <div class="row"> 
+         <div class="col-xs-12 col-md-12 ">
+             <form id='form'  >
+                 <div class="box" style="margin-top: 22px;">
+              <% GreenSideLunchMenuConfig.current_menu.each do |item,content| %> 
+                <div class="top">
+                    <%= item%>
+                    <span style="color: gray;float:right;">v</span>
+                </div>
+                <div class="bottom" >
+                    <div class="well">
+                  <% content.each do |subject,detail| %>
+                       <input type="checkbox" name="menItems" onclick="myFunction(this)" 
+            value="<%= subject["name"] %>&nbsp;&nbsp;&nbsp;&nbsp;<%= subject["price"] %>">
+                        <span class="box-nip"><%= subject["name"] %></span><br>
+                        <% unless subject["ingredients"].nil?  %>
+                            <%= subject["ingredients"]%>
+                            <%= tag(:br) %>
+                        <%end%>
+                        <%= subject["price"] %><br>
+                   <%end%>
+                   </div>
+                </div>
+                 <%end%> 
+                </div> 
+             </form> 
+         </div>
+         
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <h1 class="text-center"   style="color:red;"> PIZZA</h1>
+            <div class ="text-center" style="border: 1px solid red; color: #fff; background: red;">
+                <h2>BUY 1 GET 1 FREE </h2>
+            </div>
+            <div class="top">
+                <h2 style="color: green; margin-top: 25px; padding: 25px;border: 1px solid red; background:red;">TOPPINGS: 
+                 <span style="color: gray;float:right;">v</span>
+                </h2>
+            </div>
+            <div class="bottom" style="display:none;">
+                <p style="color: red; font-weight: 700">
+                    Pepperoni, Italian Sausage, Chicken, Mushrooms, Onions, Bell Peppers, 
+                    Candian Bacon, Black Olives, Meatballs, Ham, Pineapple, Jalapenos,
+                    Salami, Anchovies, Fresh Tomatoes, Fresh Garlic, Roasted Garlic, 
+                    Cilantro, Grilled Eggplant, Grilled Zucchini, Red Onion, Roasted Peppers
+                    , Capers, Sun-dried Tomatoes, Feta Cheese, Artichoke Hearts
+                </p>
+            </div>
+            
+             <div style="text-align: right; color:green; font-weight: 500;margin-bottom: 19px;">
+               SMALL(2)&nbsp;&nbsp;MEDIUM(2)&nbsp;&nbsp;LARGE(2)
+            </div>
+            <div class="box" id="topping-pizza">
+                  <% PizzaLunchConfig.current_menu.each do |item,content| %> 
+                      <% content.each do |subject,detail| %>
+                        <div  class="top" style="text-align: left;">
+                            <span style=" display: inline-block;">
+                                <%= subject["name"] %>
+                            </span>
+                            <span style="float:right; color: red;">
+                                <% subject["price"].each do |p| %>
+                                    <%= p %>&nbsp;&nbsp; 
+                                <%end%>  
+                                <span style="color: gray;text-align:right;">v</span>
+                            </span> 
+                            <span>
+                            <%= tag(:br) %>
+                            </span>
+                         </div>   
+                         <% unless subject["ingredients"].nil?  %>
+                             <div class="bottom">
+                                <%= subject["ingredients"]%>
+                             </div>
+                         <%end%>
+                       <%end%>
+                 <%end%>
+             </div>
+        </div>
+     </div>
+       <div class="row ">
+           <div class="col-md-12 text-center">
+               <h2 style="margin-top:25px;">CICCERO'S TREAT</h2>
+           </div>
+        </div>
+        
+           <div class="row dashed-red">
+               <div class="col-sm-12 col-md-4" style="float:right;" >
+                 <h5>2 Large Pizzas with 3 Toppings and 3 Cans of Soda <span style="color:red">(excluding Extra Cheese)</span></h5> 
+                 <h6>for only 
+                       <span style="color:red">
+                           $23.50 + tax
+                       </span>
+                   </h6>
+                </div>
+                <div class="col-sm-12 col-md-4" style="float:right;">
+                   <h5>Large Pizza <span style="color:red">(one only)</span> with 3 Toppings, Large Green Salad & 3 Cans of Soda </h5>
+                   <h6>for only 
+                       <span style="color:red">
+                           $23.50 + tax
+                       </span>
+                   </h6>
+                </div>
+                <div class="col-sm-12 col-md-4" style="float:right;" >
+                   <h5>1 Small Pizza with 2 Toppings, 1 Pasta of Your Choice, 2 Dinner Salads & 2 Cans of Soda</h5>
+                   <h6>for only 
+                       <span style="color:red">
+                           $19.50 + tax
+                       </span>
+                   </h6>
+                </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12">
+                <h1 class="text-center">
+                    <span style="color:green;">
+                        Gourment
+                    </span>
+                    <span style="color:red;">
+                        PIZZA
+                    </span></h1>
+                <div class ="text-center" style="border: 1px solid red; color: #fff; background: red;">
+                    <h2>BUY 1 GET 1 FREE </h2>
+                </div>
+                 <div style="text-align: right; color:green; font-weight: 500;margin-bottom: 19px;">
+                   SMALL(2)&nbsp;&nbsp;MEDIUM(2)&nbsp;&nbsp;LARGE(2)
+                </div>
+                            <div class="box" id="topping-pizza">
+                  <% GormetPizzaLunchConfig.current_menu.each do |item,content| %> 
+                      <% content.each do |subject,detail| %>
+                        <div  class="top" style="text-align: left;">
+                            <span style=" display: inline-block;">
+                                <%= subject["name"] %>
+                            </span>
+                            <span style="float:right; color: red;">
+                                <% subject["price"].each do |p| %>
+                                    <%= p %>&nbsp;&nbsp; 
+                                <%end%>  
+                                <span style="color: gray;text-align:right;">v</span>
+                            </span> 
+                            <span>
+                            <%= tag(:br) %>
+                            </span>
+                         </div>   
+                         <% unless subject["ingredients"].nil?  %>
+                             <div class="bottom">
+                                <%= subject["ingredients"]%>
+                             </div>
+                         <%end%>
+                       <%end%>
+                 <%end%>
+             </div>
+            </div>
+           </div>
+
+       </div>
+ </div> 

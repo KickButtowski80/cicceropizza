@@ -115,11 +115,11 @@ body{
     margin:auto;
 }
 // lunch section
- .box {
-//   float: left;
-//  // width: 100%;
-//   margin: 20px; 
-  
+.box {
+  float: left;
+  width: 100%;
+  font-size: 1.4em;
+  border: 1px solid black;
 }
 
  .box .top {
@@ -136,27 +136,41 @@ body{
   background-color: red;
   color: black;
   display: none;
-  border: 1px solid black; 
+  // border: 1px solid black;
 }
 
-.top{
-    font-size:20px;
-    font-weight:900;
+ 
+.box-nip{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-.bottom{
-    font-size:20px;
-    font-weight:500;
+.dashed-red{
+  padding: 30px;
+  margin: 15px;
+  border: 10px dashed #fff;
+  border-color: red;
+}
+ 
+h5{
+ font-size: 1.5em;
+}
+
+@media only screen and (max-width: 425px) {
+    .box {
+        font-size: 14px;
+        font-weight: 500;
+    }
 }
 
 
-#ordered-list{
- position: fixed;
- right: 0; 
- top: 14%;
-//  border: 1px solid lightblue;
+@media only screen and (min-width: 426px) and(max-width: 1440px) {
+    .box {
+        font-size: 1.75em;
+        font-weight: 700;
+    }
 }
-
 
 
 
