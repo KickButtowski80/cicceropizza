@@ -77,6 +77,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   
-  # levarge caching 
+  # leverage browser caching
   config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
 end
