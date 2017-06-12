@@ -79,4 +79,8 @@ Rails.application.configure do
   
   # leverage browser caching
   #config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
+  
+  config.action_controller.perform_caching = true
+  
+  
 end
