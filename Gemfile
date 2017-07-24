@@ -37,3 +37,4 @@ gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'rails_12factor', group: :production
 
 gem 'config'
+gem 'rack-cache'

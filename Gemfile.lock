@@ -113,6 +113,8 @@ GEM
     pg (0.20.0)
     puma (3.8.2)
     rack (1.6.8)
+    rack-cache (1.7.0)
+      rack (>= 0.4)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5)
@@ -202,6 +204,7 @@ DEPENDENCIES
   mini_magick (~> 4.7)
   pg
   puma
+  rack-cache
   rails (= 4.2.5)
   rails_12factor
   rake-minify
