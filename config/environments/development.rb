@@ -40,4 +40,8 @@ Rails.application.configure do
   
   #http://stackoverflow.com/questions/32568556/cloud9-rails-api-challenge-allowed-network-but-still-cannot-render-console
   config.web_console.whitelisted_ips =   '0.0.0.0/0.0.0.0'
+  
+  
+     config.serve_static_files = true
+  config.static_cache_control = 'public, max-age=1000'
 end
