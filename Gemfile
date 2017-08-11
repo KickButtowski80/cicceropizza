@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'sprockets', '~> 3.0' 
+gem 'sprockets', '~> 3.7', '>= 3.7.1'
 
 gem  'rake-minify'
 group :development, :test do
