@@ -1,16 +1,3 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- */
-
 @import "bootstrap";
 @import "animate"; 
 @import "font-awesome";
@@ -18,13 +5,10 @@
 html {
     height: 100%;
 }
-
 body{
     font-family: 'Lato';
     position: relative;
-   
 }
-
 #body-bg-image{
     background-image: image-url("/assets/pizzaOven.jpg");
     background-attachment: fixed;
@@ -34,20 +18,15 @@ body{
     background-size: cover; 
   
 }
-
-// NAVBAR SECTION
 .navbar{
     height:60px;   
 }
-
 .navbar-default{
     background: #fff;
 }
-
 .navbar-logo{
      padding-left: 5px;
 }
-
 .navbar-nav {
     margin: 0.2px -15px;
 }
@@ -57,42 +36,26 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
-
 #nav-items li a {
     color: black;
 }
-
 #nav-items li a:hover {
     color: gray;
-    
 }
-
 .navbar-default .navbar-nav > li > a:hover {
   color: #333;
   border-bottom: 5px solid gray;
   margin-top: 1px; /*add spacing*/
 }
-
-
-// .vertical-align {
-//     position: relative;
-//     top: 50%;
-//     transform: translateY(-50%);
-// }
-
 #home, #about, #menu, #contact{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 #home{
     height: 500px;
 }
-  
-  
 #jumbo-slogan {
     margin-top: 72px;
-    
     padding-top: 10px;
     padding-bottom: 40px;
     height: 50%;
@@ -100,14 +63,9 @@ body{
     font-size: 20px;
     opacity: .8;
 }
-
-
-// MENU SECTION
 #menu{
     height: 50%; 
 }
-
-
 #lunch-logo{
     width:200px;
     height:200px;
@@ -120,90 +78,66 @@ body{
   width: 100%;
   font-size: 1.4em;
 }
-
  .box .top {
   padding: 6px;
   background-color: #66ff66;
   color: black;
   cursor: pointer;
   border: 1px solid black;
-
 }
-
- .box .bottom {
+.box .bottom {
   padding: 6px;
   background-color: red;
   color: black;
   display: none;
-  // border: 1px solid black;
 }
-
- 
 .box-nip{
     border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
 }
-
 .dashed-red{
   padding: 30px;
   margin: 15px;
   border: 10px dashed #fff;
   border-color: red;
 }
- 
 h5{
  font-size: 1.5em;
 }
-
 @media only screen and (max-width: 425px) {
     .box {
         font-size: 14px;
         font-weight: 500;
     }
 }
-
-
 @media only screen and (min-width: 426px) and(max-width: 1440px) {
     .box {
         font-size: 1.75em;
         font-weight: 700;
     }
 }
-
-
-
-
 // about has it is own scss file 
-
-
-    
 //our pefromance section 
 .performance-rate {
     height: 230px;
 }
-
 .performance-rate a {
     color: black;
     font-weight: 300;
     padding: 35px;
 }
-
-   
 // CONTACT SECTIOn 
 #contact {  
     height: 25%;
 }   
-
 #jumbo-contact{
     margin-top: 20px;
     height: 50%;
     color: black;
     font-size: 20px;
     opacity: .8;
-    }    
-    
-
+    }  
 #mySelect{
     width: 180px;
     -webkit-appearance: none; 
@@ -216,28 +150,21 @@ h5{
     background-size: 20px 20px;
     background-color: rgba(248, 248, 248,0.6) ;
     width: 250px;
-    
 }
- 
-
 #mySelect:focus{
     -webkit-outline:none;
     -moz-outline:none;
     outline:none;
 }
-
 #google-map{
    width: 70%;
 }
-
 @media(min-width:768px) {
     .navbar {
-        //padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
     .top-nav-collapse {
         padding: 0;
     }
@@ -248,26 +175,17 @@ h5{
     font-size: 16px;
     font-weight: 600;
     }
-    
     #menu,#about,#contact {
         padding-top:45px;
-       
     }
-     
-    
     .navbar-default .navbar-nav > li > a:hover { 
       border-bottom:none;
     }
-    
-   
-
 }
-    
 @media only screen and (max-width: 1000px) {
     #ordered-list{
-  position: static;
+      position: static;
    }
-    
 }
     
     
