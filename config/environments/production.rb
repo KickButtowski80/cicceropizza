@@ -80,11 +80,9 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # leverage browser caching
-  #config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
+  config.static_cache_control = "public, s-maxage=31536000, maxage=15552000"
   
   config.action_controller.perform_caching = true
-  
- 
-   config.perform_caching = true
+  config.perform_caching = true
   
 end

@@ -12,8 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require wow
-//= require toggleDiv
 //= require bootstrap
 //= require_tree .
 
