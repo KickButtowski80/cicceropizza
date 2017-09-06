@@ -86,7 +86,7 @@ body{
   width: 100%;
   font-size: 1.4em;
 }
- .box .top {
+ .box .top { 
   padding: 6px;
   background-color: #66ff66;
   color: black;
@@ -115,9 +115,13 @@ h5{
 }
 @media only screen and (max-width: 425px) {
     .box {
-        font-size: 14px;
+        font-size: 1px;
         font-weight: 500;
     }
+    
+     .box .top {
+      padding-bottom: 35px;
+     }
 }
 
  
