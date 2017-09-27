@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
    var $root = $('html, body');
     $('#nav-items a').click(function(e) {
          var target = this.hash;
