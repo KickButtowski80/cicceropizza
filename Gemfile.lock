@@ -39,7 +39,7 @@ GEM
     animate-rails (1.0.10)
       rails
     arel (6.0.4)
-    autoprefixer-rails (7.1.2.4)
+    autoprefixer-rails (7.1.4.1)
       execjs
     aws-sdk (2.10.24)
       aws-sdk-resources (= 2.10.24)
@@ -199,7 +199,7 @@ PLATFORMS
 DEPENDENCIES
   animate-rails
   aws-sdk (~> 2.9, >= 2.9.16)
-  bootstrap-sass (~> 3.3.6)
+  bootstrap-sass (~> 3.3, >= 3.3.6)
   byebug
   carrierwave (~> 1.1)
   carrierwave-aws (~> 1.1)
