@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs 
+//= require wow
 //= require_tree .
 //= require bootstrap-sprockets
