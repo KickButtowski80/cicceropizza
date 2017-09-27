@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load', function(){
+$(document).ready(function(){
     $(".top").click(function(){
     	 $(this).next().toggle();
     });

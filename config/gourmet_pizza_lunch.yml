@@ -1,69 +1,69 @@
 Gourmet Pizza:
 - name: B.B.Q. Chicken
   price: 
-        - 17.50
-        - 22.50
-        - 26.50
+        - 18.50
+        - 23.50
+        - 27.50
   ingredients: Grilled Chicken Breast, Red Onion, Cilantro, our B.B.Q. Sauce & Tomato Sauce
 - name: Margarita
   price: 
-        - 15.95
-        - 18.30
-        - 21.95
+        - 16.95
+        - 19.30
+        - 22.95
   ingredients: Fresh Tomato, Basil & Roasted Garlic  
 - name: Roma Tomato
   price: 
-        - 15.95
-        - 18.80
-        - 22.80
+        - 16.95
+        - 19.80
+        - 23.80
   ingredients: Slice of ROma Tomato, Roasted Garlic & Basil
 - name: Mediterranean
   price: 
-        - 17.50
-        - 22.50
-        - 26.50
+        - 18.50
+        - 23.50
+        - 27.50
   ingredients: Grilled Marinated Eggplant, Artichoke Hearts, Hearts of Palm, Sun Dried Tomatoes, Fresh Basil, Parmesan Cheese & Tomato Sauce
 - name: Eggplant Feta 
   price: 
-        - 15.10
-        - 17.95
-        - 22.50
+        - 16.95
+        - 18.95
+        - 23.50
   ingredients: Grilled Marinated Eggplant, Feta Cheese, Sun Dried Tomatoes & Tomato Sauce
 - name: Greek 
   price: 
-        - 15.10
-        - 18.50
-        - 22.50
+        - 16.95
+        - 19.50
+        - 23.50
   ingredients: Artichoke Hearts, Kalamata Olives, Capers & Roma Tomatoes   
 - name: Tuscan
   price: 
-        - 15.10
-        - 18.50
-        - 22.50
+        - 16.10
+        - 19.50
+        - 23.50
   ingredients: Roasted Pappers, Roasted Garlic, Sun Dried & Roma Tomatoes
 - name: Grilled Vegetables
   price:
-        - 17.50
-        - 22.50
-        - 26.50
+        - 18.50
+        - 23.50
+        - 27.50
   ingredients: Grilled Eggplant, Zucchini, Roasted Peppers, Red Onions w Roasted Garlic, Fresh Basil & Roma Tomatoes
 - name: Mixed Vegetarian  
   price:
-        - 15.95
-        - 18.50
-        - 21.95
+        - 16.95
+        - 19.50
+        - 22.95
   ingredients: Grilled Eggplant, Mushrooms, Broccoli, Basi, Sun Dried Tomatoes & Tomato Sauce
 - name: Western Chicken 
   price:
-        - 17.50
-        - 22.50
-        - 26.50
+        - 18.50
+        - 23.50
+        - 27.50
   ingredients: Chicken Breast, Cilantro, Fresh Tomatoes, Jalapenos, Fresh Avocados & Mozzarella Cheese
 - name: Chicken Spinach
   price:
-        - 16.60
-        - 20.55
-        - 25.35
+        - 17.60
+        - 21.55
+        - 26.35
   ingredients: Chicken Breast, Fresh Mushrooms, Artichoke Hearts, Fresh Spinach, Tomato Sauce & Mozzarella Cheese
   
   

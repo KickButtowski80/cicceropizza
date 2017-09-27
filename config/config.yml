@@ -178,27 +178,27 @@ Gourment Pizza:
 Calzone: 
 - name: Deluxe Calzone
   ingredients: Pepperoni, sausage, mushrooms, onions, bell peppers, tomato sauce, ricotta, fresh basil, olive, mozzarella and Parmesan cheese.
-  price: $8.95 
+  price: $9.75
 
 
 - name: Vegetarian Calzone
   ingredients: Mushrooms, onions, bell peppers, olives, tomato sauce, ricotta, fresh basil, mozzarella and Parmesan cheese.
-  price: $8.95 
+  price: $9.75 
 
 
 - name: BBQ Chicken Calzone
   ingredients: Grilled chicken breast, red onion, cilantro, BBQ sauce, tomato sauce, ricotta and mozzarella cheese.
-  price: $8.95 
+  price: $9.75 
 
 
 - name: Cheese Calzone
   ingredients: Ricotta, mozzarella and Parmesan cheese and tomato sauce.
-  price: $8.95 
+  price: $9.75 
 
 
 - name: Grilled Vegetables Calzone
   ingredients: Grilled eggplant, zucchini, peppers, red onions with roasted garlic, fresh basil and tomato sauce.
-  price: $8.95 
+  price: $9.75 
   
   
 Pasta:
@@ -270,32 +270,32 @@ Pasta:
 Gourmet Sandwiches:
 - name: Eggplant Chicken Sandwich
   ingredients: Chicken breast with grilled eggplant, feta cheese, lettuce, tomatoes and mayonnaise.
-  price: $7.85 
+  price: $8.45 
   
 
 - name: Vegetarian Sandwich
   ingredients: Fresh sliced avocados, sun-dried tomatoes, provolone cheese, alfalfa sprouts, lettuce, tomatoes and mayonnaise.
-  price: $7.85 
+  price: $8.45 
   
 
 - name: Grilled Chicken Avocado Sandwich
   ingredients: Grilled chicken breast , slices of avocado, lettuce, tomatoes, alfalfa sprouts, mayonnaise, Dijon mustard and provolone cheese.
-  price: $7.85 
+  price: $8.45 
   
 
 - name: BBQ Chicken Sandwich
   ingredients: Grilled chicken breast, grilled red onions, cilantro, lettuce, tomatoes, provolone cheese and special BBQ sauce.
-  price: $7.85 
+  price: $8.45 
   
 
 - name: Tuna Sandwich
   ingredients: White albacore tuna blended with cucumbers, fresh dill, celery, red and green onions, lettuce, tomatoes, provolone cheese, mayonnaise and Dijon mustard.
-  price: $7.85 
+  price: $8.45 
   
 
 - name: Chipotle Chicken Sandwich
   ingredients: Chicken breast, chipotle sauce, mayonnaise, lettuce, melted mozzarella cheese and tomatoes.
-  price: $7.85 
+  price: $8.45 
   
   
 Hot and Cold Sandwiches:
@@ -316,52 +316,52 @@ Hot and Cold Sandwiches:
 
 - name: Club Sandwich
   ingredients: Slice of turkey, ham and roast beef served with lettuce, tomatoes, mozzarella cheese, Italian dressing and mayonnaise.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Chicken Sub Sandwich
   ingredients: Breast of chicken, mozzarella cheese, lettuce, tomato and mayonnaise.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Meatballs and Cheese Sandwich
   ingredients: Homemade meatballs, melted mozzarella cheese and Italian tomato sauce.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Italian Sausage and Cheese Sandwich
   ingredients: Italian sausage links, melted mozzarella cheese and Italian tomato sauce.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Eggplant Sandwich
   ingredients: Slices of delightfully breaded eggplant, mozzarella cheese and Italian tomato sauce.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Ham and Cheese Sandwich
   ingredients: Slices of ham, mozzarella cheese, lettuce, tomatoes and mayonnaise.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Hero Sandwich
   ingredients: Salami, Canadian bacon, pepperoni, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Cold Submarine Sandwich
   ingredients: Salami, ham, Canadian bacon, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Cold Turkey Sandwich
   ingredients: Slices of turkey, mozzarella cheese, lettuce, tomatoes, mayonnaise and Italian dressing.
-  price: $6.95 
+  price: $7.50 
   
 
 - name: Cold Avocado and Cheese Sandwich
   ingredients: Fresh avocado slices, mozzarella cheese, black olives, lettuce, tomatoes, mayonnaise and Italian dressing.
-  price: $6.95 
+  price: $7.50 
   
   
 Side Orders:
@@ -373,13 +373,13 @@ Side Orders:
    price: $3.55 
  - name: 2 Meatballs
    ingredients: ~
-   price: $3.25 
+   price: $3.95 
  - name: 2 Italian Sausages
    ingredients: ~
-   price: $3.25 
+   price: $3.95 
  - name: 7 Hot Wings
    ingredients: ~
-   price: $5.75 
+   price: $5.95 
  - name: 7 Fried Zucchini
    ingredients: With ranch dressing.
    price: $4.95 
@@ -392,13 +392,13 @@ Side Orders:
 Desserts: 
 - name: Cheese Cake
   ingredients: ~
-  price: $3.25 
+  price: $3.95 
 - name: Chocolate Mousse Cake
   ingredients: ~
-  price: $3.25 
+  price: $3.95 
 - name: Tiramisu
   ingredients: ~
-  price: $3.25
+  price: $3.95
   
 
     
