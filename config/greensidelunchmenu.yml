@@ -288,14 +288,4 @@ HOT SANDWICHES(are served with salad or soup and soft drink.):
   price: 8.95
 #------------------------------------------------------------------------------------------------
 
-COLD SANDWICHES (are served with salad or soup and soft drink.):
 
-- name: submarine    
-  ingredients: ~
-  price: 8.95
-- name: Turkey          
-  ingredients: ~
-  price: 8.95
-- name: Avocado and cheese     
-  ingredients: ~
-  price: 8.95
