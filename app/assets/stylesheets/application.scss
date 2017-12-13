@@ -66,13 +66,13 @@ body{
     height: 50%; 
 }
 #lunch-logo{
-    width:280px;
+    width:250px;
     height:350px;
     display:block;
     margin:auto;
 }
 #dinner-logo{
-    width:280px;
+    width:250px;
     height:350px;
     display:block;
     margin:auto;
@@ -115,16 +115,7 @@ body{
 h5{
  font-size: 1.5em;
 }
-@media only screen and (max-width: 425px) {
-    .box {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    
-     .box .top {
-      padding-bottom: 35px;
-     }
-}
+
 
  
 @media only screen and (max-width: 1440px) {
@@ -175,7 +166,7 @@ h5{
 #google-map{
    width: 70%;
 }
-@media(min-width:768px) {
+@media(min-width: 768px) {
     .navbar {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -203,5 +194,17 @@ h5{
       position: static;
    }
 }
+
+ 
+  
+@media only screen and (max-width: 426px){
+    .box .top{
+        padding-bottom: 0px;
+    }
     
+    .box{
+        font-size: 1em;
+        font-weight: 500;
+    }    
+}
     

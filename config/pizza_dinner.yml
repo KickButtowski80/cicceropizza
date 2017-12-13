@@ -1,0 +1,50 @@
+Pizza:
+- name: Mozzarella Cheese 
+  price: 
+        - 11.95
+        - 14.25
+        - 17.95
+  ingredients: none
+- name: Topping(Regular)
+  price: 
+        - 1.95
+        - 2.45
+        - 2.95
+  ingredients: none   
+- name: Extra Any Cheese
+  price: 
+        - 1.75
+        - 2.55
+        - 3.10
+  ingredients: none
+- name: Ciccero's Special
+  price: 
+        - 17.50
+        - 21.50
+        - 25.50
+  ingredients: Pepperoni, Italian Sausage, Mushrooms, Onions, Black Olives, and Bell Peppers
+- name: Vegetarian Special 
+  price: 
+        - 16.95
+        - 20.95
+        - 24.95
+  ingredients: Mushrooms, Olives, Bell Peppers, Onions, Fresh Tomatoes 
+- name: All Meat Special 
+  price: 
+        - 17.50
+        - 21.50
+        - 25.50
+  ingredients: Pepperoni, Salami, Sausage & Ham    
+- name: HAWAIIAN
+  price: 
+        - 15.95
+        - 19.95
+        - 23.95
+  ingredients: Canadian Bacon & Pineapple
+- name: Chicken Special
+  price:
+        - 14.15
+        - 18.15
+        - 22.75
+  ingredients: Marinated Chicken Breast & Red Onions
+ 
