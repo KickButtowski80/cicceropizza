@@ -1,34 +1,19 @@
 Most Popular:
-    - name: Chicken Pesto Farfala
-      ingredients:
-      price: $11.00+
     - name: Hot Wings
-      ingredients:
-      price: $8.50 
+      ingredients: 7 pieces
+      price: $5.95  
     - name: Ciccero's Treat
       ingredients: Two large pizzas with 3 toppings and 3 cans of soda.
-      price: $25.00 
+      price: $24.50 
     - name: Large Pizza Special
-      ingredients: Large pizza with 3 toppings, 10-piece hot wings, and 3 cans of soda.
-      price: $21.00 
+      ingredients: Large pizza with 3 toppings, 3 cans of soda, and large green salad.
+      price: $21.95 
     - name: Two Pastas Special
       ingredients: Two pastas of your choice, 2 green salads, 2 garlic breads, and 2 cans of soda.
-      price: $21.00+
-    - name: Make Your Own Pizza
-      ingredients: Mozzarella.
-      price: $12.00+
+      price: $20.50
     - name: Personal Pizza
-      ingredients: ONE 9" pizza.
-      price: $7.50+
-    - name: Spaghetti
-      ingredients: Homemade marinara sauce, Parmesan, and mozzarella. Vegetarian.
-      price: $9.00+
-    - name: Cheesecake
-      ingredients:
-      price: $3.50
-    - name: Chocolate Cake
-      ingredients:
-      price: $3.50
+      ingredients: Cheese
+      price: $5.95 (additional topping 0.95)
       
 Salads: 
 
