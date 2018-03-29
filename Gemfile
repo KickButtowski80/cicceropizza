@@ -26,7 +26,7 @@ end
 
 group :production do
   gem 'puma' 
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
 end
 
 gem  'animate-rails' 
