@@ -42,6 +42,5 @@ Rails.application.configure do
   config.web_console.whitelisted_ips =   '0.0.0.0/0.0.0.0'
   
   
-     config.serve_static_files = true
-  config.static_cache_control = 'public, max-age=1000'
+  config.public_file_server.enabled = true 
 end

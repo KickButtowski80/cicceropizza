@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.5'
- 
+#  gem 'rails', '4.2.5'
+gem 'rails', '5.0.1'
 #gem 'bootstrap', '~> 4.0.0.beta'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'sass-rails', '>= 3.2'
@@ -20,10 +20,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+  gem 'sqlite3', '~> 1.3.0'
   gem 'web-console', '~> 2.0'
 end
-
+  
 group :production do
   gem 'puma' 
   gem 'pg', '~> 0.18.4'
@@ -31,7 +31,7 @@ end
 
 gem  'animate-rails' 
 gem  "font-awesome-rails"
-gem 'carrierwave', '~> 1.1'
+# gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.7'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'aws-sdk', '~> 2.9', '>= 2.9.16'
